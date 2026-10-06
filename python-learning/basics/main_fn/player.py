@@ -1,0 +1,3 @@
+import game
+print("This is the player module.")
+# NOTE Here we are importing the game module. When this file is run directly, the game module will be imported and the code in the game module will be executed. However, since we have the if __name__ == "__main__": statement in the game module, the main function will not be called when it is imported. This means that the message "Welcome to the game!" and "Game is starting..." will not be printed when this file is run directly.
